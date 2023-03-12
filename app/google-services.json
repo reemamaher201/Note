@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "764602701154",
+    "project_id": "notes-928ec",
+    "storage_bucket": "notes-928ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764602701154:android:733f31c0b1ae586d9c483b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764602701154-1glsjov5rqmfh09ah3kp21me7o7nchk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPb7-N4NkOym5Miz2GK6m-E0yqY04A5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764602701154-1glsjov5rqmfh09ah3kp21me7o7nchk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764602701154:android:a39cdd8ab20f795a9c483b",
+        "android_client_info": {
+          "package_name": "com.reema.reemanote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764602701154-1glsjov5rqmfh09ah3kp21me7o7nchk6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPb7-N4NkOym5Miz2GK6m-E0yqY04A5Wo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764602701154-1glsjov5rqmfh09ah3kp21me7o7nchk6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
