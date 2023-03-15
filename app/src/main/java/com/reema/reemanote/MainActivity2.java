@@ -48,6 +48,7 @@ public class MainActivity2 extends AppCompatActivity {
         Map<String, Object> product = new HashMap<>();
         if (!title.isEmpty()) {
             product.put("Title", title);
+            product.put("Content", content);
             db.collection("Notes")
                     .add(product)
                     .addOnSuccessListener(new OnSuccessListener<DocumentReference>() {

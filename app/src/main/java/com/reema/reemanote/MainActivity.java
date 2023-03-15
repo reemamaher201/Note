@@ -132,8 +132,9 @@ public class MainActivity extends AppCompatActivity implements NoteAdapter.ItemC
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         updateTitle = customLayout.findViewById(R.id.update_title);
+                        updateContent =customLayout.findViewById(R.id.update_content);
 
-                        db.collection("Notes").document(note.getId()).update("Title", updateTitle.getText().toString())
+                        db.collection("Notes").document(note.getId()).update("Title", updateTitle.getText().toString(),"Content",updateContent.getText().toString())
                                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                                     @Override
                                     public void onSuccess(Void aVoid) {

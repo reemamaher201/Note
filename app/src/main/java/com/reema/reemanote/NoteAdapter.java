@@ -46,7 +46,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder> {
 
             }
         });
-        holder.card.setOnClickListener(new View.OnClickListener() {
+        holder.edit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 itemClickListener2.onItemClick2(holder.getAdapterPosition(), mData.get(position).id);
@@ -65,14 +65,15 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder> {
         public TextView title;
         public TextView content;
         public ImageView delete;
-        public CardView card;
+
+        public ImageView edit;
 
         ViewHolder(View itemView) {
             super(itemView);
             this.title = itemView.findViewById(R.id.title);
             this.content = itemView.findViewById(R.id.content);
             this.delete = itemView.findViewById(R.id.delete);
-            this.card = itemView.findViewById(R.id.card);
+            this.edit = itemView.findViewById(R.id.edit);
             itemView.setOnClickListener(this);
         }
 
