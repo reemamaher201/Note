@@ -39,6 +39,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteAdapter.ViewHolder> {
     public void onBindViewHolder(final ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
 
         holder.title.setText(mData.get(position).getTitle());
+        holder.content.setText(mData.get(position).getContent());
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
